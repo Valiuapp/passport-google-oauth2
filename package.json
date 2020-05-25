@@ -1,5 +1,5 @@
 {
-  "name": "passport-google-oauth20",
+  "name": "@valiu/passport-google-oauth20",
   "version": "2.0.0",
   "description": "Google (OAuth 2.0) authentication strategy for Passport.",
   "keywords": [
@@ -31,7 +31,7 @@
   ],
   "main": "./lib",
   "dependencies": {
-    "passport-oauth2": "1.x.x"
+    "@valiu/passport-oauth2": "1.x.x"
   },
   "devDependencies": {
     "make-node": "0.4.6",
@@ -44,5 +44,8 @@
   },
   "scripts": {
     "test": "make test"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
